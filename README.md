@@ -31,3 +31,13 @@ POST /api/v1/tickets: Create a ticket for setting up reminders. This endpoint al
 ## Notes
 Cron Jobs: The service is set up to send reminders for flight check-ins and alerts for price drops. These tasks are managed through scheduled cron jobs.
 Message Queue: For scalability and reliability, RabbitMQ can be integrated to manage message queues, although this is optional and can be added based on your project's needs.
+
+# Other Services Links
+
+[FlightSearchService](https://github.com/SPARSH1608/flightandSearchService)
+
+[AirTicketBookingService](https://github.com/SPARSH1608/AirTicketBookingService)
+
+[AuthService](https://github.com/SPARSH1608/Auth_service)
+
+[ReminderService](https://github.com/SPARSH1608/ReminderService)
